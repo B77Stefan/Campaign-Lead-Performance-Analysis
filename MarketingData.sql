@@ -1,12 +1,3 @@
-/* Create Tables and import data from CSV files */
-CREATE TABLE (
-
-);
-
-/* Set primary keys */
-ALTER TABLE campaign_data
-ADD PRIMARY KEY (campaignid);
-
 /* 1. Campaign Effectiveness Analysis */
 /* Which campaigns had the highest and lowest lead volumes? (top 10 for each) */
 SELECT campaignid, leadvolumeindustry
